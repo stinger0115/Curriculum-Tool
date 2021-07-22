@@ -1,0 +1,32 @@
+.EditableRow{
+    padding-top: 10px;    
+    padding-bottom: 10px;    
+}
+.EditableRow > form{
+    display: flex;
+    justify-content: space-between;
+}
+.EditableRow > form > input{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    flex: 0.85;
+    border:none;
+    color: salmon;
+}
+.EditableRow > form >button{
+    flex: 0.1;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #337AB7;
+    border:1px solid #337AB7;
+    color: white;
+    border-radius: 25px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-shadow: 2px 2px 10px 2px rgb(173, 173, 173);
+}
+.EditableRow > form > button:hover{
+    cursor: pointer;
+}
